@@ -1,0 +1,107 @@
+*{
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;margin:auto ;
+    overflow: hidden;
+}
+/*header*/
+header{
+    background: url( img/Redes1.JPG)  rgb(33, 194, 33);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+}
+header.menu{
+margin: 4em 0;
+}
+header .menu div{
+    padding: auto;
+    color:#FFF;
+    background: rgb(207, 81, 7);
+    max-width: 15%;
+    text-align: center;
+    border: solid 2px;
+    min-width: 150px;
+    min-height: 50px;
+    float:right ;
+
+}
+.menu a{
+    text-decoration: none;
+    color:#FFF;
+    padding-bottom: 9px;
+    font-size: 1em;
+    border-bottom: 2px solid transparent;
+}
+.menu a:hover{
+    border-bottom:2px solid #fff;
+}
+header .contenedor-texto{
+    display:flex; justify-content: center;
+    margin: 5em 12em;
+}
+header .contenedor-texto .texto{
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 30px;
+}
+header .contenedor-texto .texto h2 {
+    color:#FFF;
+    font-weight: 300;
+    margin: 3em;
+}.main .contenedor{
+    overflow: visible;
+}
+.main .contenedor .foto{
+    margin-top: -60px;
+}
+.main .contenedor .foto img{
+    border:5px solid rgb(58, 185, 7);
+}
+/*trabajos*/
+.trabajos .contenedor{
+    background: rgb(117, 185, 7);
+    margin-top:  20px;
+    border: #FFF solid 3px;
+}
+.trabajos .contenedor .titulo{
+    color: #FFF;
+    font-size: 1.5em ;
+    text-align: center;
+    border: solid 3px #FFF;
+    width: 50%;
+    margin: 0 25%;
+}
+.trabajos .contenedor .contenido{
+    width:100%;
+    display: flex;    
+    vertical-align: top;
+}
+.trabajos .contenedor .contenido .img{
+    width:50%;
+}
+.trabajos .contenedor .contenido .img img{
+    width:90%;
+    border: solid 3px #FFF;
+    margin: 2.5%;
+}
+.trabajos .contenedor .contenido .info{
+    width: 45%;
+    border: solid 3px #FFF;
+    Color:#FFF;
+    margin: 2.5%;
+    text-align: center;
+
+}
